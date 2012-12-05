@@ -12,7 +12,7 @@
 (define-syntax-rule (ti . e) (#%top-interaction . e))
 (define-simple-macro (q . (~or x:number x:id)) (quote x))
 (define ((K x) y) x)
-(define (((S x) y) z) ((x z) (x z)))
+(define (((S x) y) z) ((x z) (y z)))
 (define (X x) ((x S) K))
 (define (I x) x)
 
