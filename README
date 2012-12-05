@@ -1,1 +1,14 @@
 A language of combinators and numeric constants, implemented in Racket.
+
+Examples:
+
+#lang xlang
+(S K I X)
+
+#lang xlang
+(K 1 2)
+
+To Install: `raco pkg install xlang`
+
+To learn about combinators: http://en.wikipedia.org/wiki/Combinatory_logic
+
